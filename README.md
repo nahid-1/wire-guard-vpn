@@ -141,7 +141,7 @@ services:
     container_name: wg-easy
     environment:
       - LANG=en
-      - WG_HOST=103.12.205.91
+      - WG_HOST=<public IP>
       - PASSWORD_HASH=$$2a$$10$$s68zTr.ey4i0434/pjgarO7fnP1yQz..ekiob34bmtUH9ZG4OMBZW
       - WG_PORT=51820
       - WG_DEFAULT_ADDRESS=10.8.0.x
